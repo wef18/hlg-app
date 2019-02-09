@@ -13,8 +13,11 @@ import './lib/mui/css/mui.css'
 import './lib/mui/css/icons-extra.css'
 
 
-import { Header } from 'mint-ui'
-Vue.component(Header.name, Header);
+import { Header, Swipe, SwipeItem, Search } from 'mint-ui'
+Vue.component(Header.name, Header)
+Vue.component(Swipe.name,Swipe)
+Vue.component(SwipeItem.name,SwipeItem)
+Vue.component(Search.name, Search)
 
 
 /**

@@ -32,7 +32,9 @@ export default {
     return {}
   },
   methods: {
-    
+    activeNav () {
+      
+    }
   }
 }
 </script>
@@ -40,8 +42,8 @@ export default {
 
 <style lang="scss">
   #app-container{
-    padding-top:40px;
-
-    overflow-x:hidden;
+    padding-top: 40px;
+    overflow-x: hidden;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
   }
 </style>
